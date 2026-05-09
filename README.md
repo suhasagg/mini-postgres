@@ -1,8 +1,8 @@
 # Mini Postgres Java
 
-A dependency-free educational implementation of a PostgreSQL-like relational database in Java.
+A dependency-free implementation of a PostgreSQL-like relational database in Java.
 
-This is **not a production database** and it is not wire-compatible with PostgreSQL. It is a compact learning project that implements the core architecture ideas behind a relational database engine: SQL parsing, catalog metadata, heap-style table storage, typed rows, write-ahead logging, transactions, indexes, planning, execution, and a small HTTP SQL endpoint.
+It is a compact project that implements the core architecture ideas behind a relational database engine: SQL parsing, catalog metadata, heap-style table storage, typed rows, write-ahead logging, transactions, indexes, planning, execution, and a small HTTP SQL endpoint.
 
 ## Features
 
