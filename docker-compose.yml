@@ -1,0 +1,12 @@
+services:
+  mini-postgres:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+      - DATA_DIR=/data
+    volumes:
+      - mini-postgres-data:/data
+volumes:
+  mini-postgres-data:
